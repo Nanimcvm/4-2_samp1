@@ -1,0 +1,21 @@
+# Stock Prediction Using LSTM
+This project predicts stock prices and provides investment recommendations using an LSTM model and SVM.
+
+## Features
+- Fetches live stock data from Yahoo Finance
+- Preprocesses data for LSTM model training
+- Predicts stock prices for future dates
+- Displays stock trends using Streamlit
+
+## Installation
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/yourusername/stock_prediction_project.git
+   ```
+2. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Run the Streamlit app:
+   ```sh
+   streamlit run app.py
